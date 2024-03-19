@@ -6,7 +6,6 @@ Flask==3.0.0
 Faker==20.1.0
 dbldatagen==0.3.5
 jmespath==1.0.1
-ipywidgets==8.1.1
 apache-sedona==1.5.1
 geopandas==0.14.3
 seaborn==0.13.2
