@@ -70,33 +70,32 @@ En esta sesión introductoria te familiarizarás con los Proyectos de CML, Runti
 
 ##### Despliegue de Proyecto
 
-![alt text](img/labs000.png)
+Descargue los archivos del proyecto en su computadora local.
 
-
+1. Visite [este enlace](https://github.com/pdefusco/cml_intro_hol_200324)
+2. Haz clic en "Código" y luego en "Descargar ZIP" para descargar todos los archivos.
 
 ![alt text](img/labs00.png)
 
+Cree el proyecto.
 
+1. Ingresa al Workspace de CML y haz clic en el ícono "Create Project".
+2. En la sección "Configuración Inicial", haz clic en "Local Files" y luego en la opción "Upload Zip or Tar Archive".
+3. Desplázate hacia abajo hasta la sección de Runtimes y agrega dos runtimes de Python 3.9. Agrega uno con el editor de JupyterLab y el otro con el editor de Workbench.
+
+![alt text](img/labs000.png)
 
 ![alt text](img/labs01.png)
 
-
-
 ![alt text](img/labs02.png)
-
-
 
 ![alt text](img/labs03.png)
 
-
-
 ![alt text](img/labs04.png)
 
-
+Ingresa al proyecto y familiarízate con los archivos que se han subido.
 
 ![alt text](img/labs05.png)
-
-
 
 
 ##### Selección de Runtime
