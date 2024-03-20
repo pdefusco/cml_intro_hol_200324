@@ -113,20 +113,40 @@ Resource Profile: 2 CPU / 4 GB Mem / 0 GPU
 
 ![alt text](img/labs06.png)
 
-
+Después de unos momentos, se abrirá la interfaz de Notebook JupyterLab. Ejecute cada celda con "Shift-Enter". No se requieren cambios de código.
 
 ![alt text](img/labs07.png)
 
+Note que el Notebook incluye algunos ejemplos de comandos "pip install". Con estos, los paquetes de Python se descargan en el Runtime del Proyecto. Si cierras tu sesión y vuelves más tarde, esos paquetes seguirán instalados en tu Proyecto.
 
-
-![alt text](img/labs06.png)
-
-
-![alt text](img/labs06.png)
-
-
-
+Tu Proyecto de CML es, en efecto, tu ambiente privado de Python para exploración de datos y desarrollo de modelos, sin la molestia de instalaciones complejas y gestión de dependencias.  
 
 ##### Ejecución de Notebook
+
+Keep executing the cells in each notebook. Detailed instructions to continue on are provided in each notebook.
+
+* The rest of notebook 1 focuses on few simple commands, and the creation of a Project Environment variable.
+
+![alt text](img/labs08.png)
+
+![alt text](img/labs09.png)
+
+![alt text](img/labs10.png)
+
+* Notebook 2 provides an introduction to Spark-on-Kubernetes and Data Connections in CML. With CML you can easily deploy CML Sessions with Spark to analyze data and create models at scale. Data Connections provide premade code for connecting to different types of data sources, including deploying a Spark Session within your Notebook.
+
+![alt text](img/labs11.png)
+
+![alt text](img/labs12.png)
+
+![alt text](img/labs13.png)
+
+* Notebook 3 provides an introduction to Apache Iceberg in CML. Iceberg is a Table Format enabling Lakehouse Analytics on your data. In the context of Machine Learning it is beneficial because it allows you to switch between different versions of your data by including a timestamp or Snapshot ID in your query.
+
+![alt text](img/labs14.png)
+
+![alt text](img/labs15.png)
+
+![alt text](img/labs16.png)
 
 ##### Despliegue de Job
