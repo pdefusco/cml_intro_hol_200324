@@ -56,9 +56,8 @@ class IotDataGen:
 
     '''Class to Generate IoT Fleet Data'''
 
-    def __init__(self, username, dbname, storage, connectionName):
+    def __init__(self, username, dbname, connectionName):
         self.username = username
-        self.storage = storage
         self.dbname = dbname
         self.connectionName = connectionName
 
@@ -123,29 +122,6 @@ class IotDataGen:
         return spark
 
 
-    def createDatabase(self, spark):
-        """
-        Method to create database before data generated is saved to new database and table
-        """
-
-        spark.sql("CREATE DATABASE IF NOT EXISTS {}".format(self.dbname))
-
-        print("SHOW DATABASES LIKE '{}'".format(self.dbname))
-        spark.sql("SHOW DATABASES LIKE '{}'".format(self.dbname)).show()
-
-
-    def dropDatabase(self, spark):
-        """
-        Method to drop database used by previous demo run
-        """
-
-        print("SHOW DATABASES PRE DROP")
-        spark.sql("SHOW DATABASES").show()
-        spark.sql("DROP DATABASE IF EXISTS {} CASCADE;".format(self.dbname))
-        print("\nSHOW DATABASES AFTER DROP")
-        spark.sql("SHOW DATABASES").show()
-
-
     def createOrReplace(self, df):
         """
         Method to create or append data to the IOT DEVICES FLEET table
@@ -173,12 +149,11 @@ class IotDataGen:
 def main():
 
     USERNAME = os.environ["PROJECT_OWNER"]
-    DBNAME = "default"
-    STORAGE = "s3a://go01-demo"
-    CONNECTION_NAME = "se-aw-mdl"
+    DBNAME = "proceso"
+    CONNECTION_NAME = "bco-cdp-prd-datalake"
 
     # Instantiate BankDataGen class
-    dg = IotDataGen(USERNAME, DBNAME, STORAGE, CONNECTION_NAME)
+    dg = IotDataGen(USERNAME, DBNAME, CONNECTION_NAME)
 
     # Create CML Spark Connection
     spark = dg.createSparkConnection()
