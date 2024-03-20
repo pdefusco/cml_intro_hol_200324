@@ -100,6 +100,17 @@ Ingresa al proyecto y familiarízate con los archivos que se han subido.
 
 ##### Despliegue de Sesión y Instalación de Paquetes en Runtime
 
+Abre una sesión con las siguientes opciones de Runtime.
+
+```
+Editor: JupyterLab
+Kernel: Python 3.9
+Edition: Standard
+Version: 2024 o 2023
+Enable Spark: Spark 3.2
+Resource Profile: 2 CPU / 4 GB Mem / 0 GPU
+```
+
 ![alt text](img/labs06.png)
 
 
