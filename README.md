@@ -70,6 +70,35 @@ En esta sesión introductoria te familiarizarás con los Proyectos de CML, Runti
 
 ##### Despliegue de Proyecto
 
+![alt text](img/labs000.png)
+
+
+
+![alt text](img/labs00.png)
+
+
+
+![alt text](img/labs01.png)
+
+
+
+![alt text](img/labs02.png)
+
+
+
+![alt text](img/labs03.png)
+
+
+
+![alt text](img/labs04.png)
+
+
+
+![alt text](img/labs05.png)
+
+
+
+
 ##### Selección de Runtime
 
 ##### Despliegue de Sesion
