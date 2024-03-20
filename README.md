@@ -106,7 +106,7 @@ Abre una sesión con las siguientes opciones de Runtime.
 Editor: JupyterLab
 Kernel: Python 3.9
 Edition: Standard
-Version: 2024 o 2023
+Version: 2023 o 2024
 Enable Spark: Spark 3.2
 Resource Profile: 2 CPU / 4 GB Mem / 0 GPU
 ```
@@ -114,7 +114,8 @@ Resource Profile: 2 CPU / 4 GB Mem / 0 GPU
 ![alt text](img/labs06.png)
 
 
-![alt text](img/labs06.png)
+
+![alt text](img/labs07.png)
 
 
 
