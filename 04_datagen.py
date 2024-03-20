@@ -173,9 +173,9 @@ class IotDataGen:
 def main():
 
     USERNAME = os.environ["PROJECT_OWNER"]
-    DBNAME = "GEOSPATIAL_".format(USERNAME)
+    DBNAME = "default"
     STORAGE = "s3a://go01-demo"
-    CONNECTION_NAME = "go01-aw-dl"
+    CONNECTION_NAME = "se-aw-mdl"
 
     # Instantiate BankDataGen class
     dg = IotDataGen(USERNAME, DBNAME, STORAGE, CONNECTION_NAME)
@@ -184,12 +184,6 @@ def main():
     spark = dg.createSparkConnection()
     df_desmoines = dg.dataGen(spark)
     df_desmoines = dg.addCorrelatedColumn(df_desmoines)
-
-    # Drop Spark Database if exists
-    dg.dropDatabase(spark)
-
-    # Create Spark Database
-    dg.createDatabase(spark)
 
     # Create Iceberg Table in Database
     dg.createOrReplace(df_desmoines)
