@@ -57,7 +57,7 @@ CDP es simple de usar y segura por diseño. Ofrece un ambiente común tanto para
 
 ### Lab Instructions
 
-En esta sesión introductoria te familiarizarás con los Proyectos de CML, Runtimes, Sesiones y Trabajos.
+En esta sesión introductoria te familiarizarás con los Proyectos de CML, Runtimes, Sesiones y Jobs.
 
 * Utilizarás los Proyectos de CML para cargar rápidamente artefactos de ciencia de datos como scripts de desarrollo y conjuntos de datos, y aislar tu trabajo de los demás.
 
@@ -98,8 +98,23 @@ Ingresa al proyecto y familiarízate con los archivos que se han subido.
 ![alt text](img/labs05.png)
 
 
-##### Selección de Runtime
+##### Despliegue de Sesión y Instalación de Paquetes en Runtime
 
-##### Despliegue de Sesion
+![alt text](img/labs06.png)
+
+
+![alt text](img/labs06.png)
+
+
+
+![alt text](img/labs06.png)
+
+
+![alt text](img/labs06.png)
+
+
+
+
+##### Ejecución de Notebook
 
 ##### Despliegue de Job
