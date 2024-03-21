@@ -11,19 +11,19 @@ CML es una plataforma integral para implementar capacidades de aprendizaje autom
 
 ##### Científicos de Datos
 
-* CML permite a los equipos de DS colaborar y acelerar el desarrollo y entrega de modelos con flujos de trabajo transparentes, seguros y gobernados.
+* CML permite a los equipos de Ciencia de Datos colaborar y acelerar el desarrollo y entrega de modelos con flujos de trabajo transparentes, seguros y gobernados.
 * CML Amplía los casos de uso de IA con pipelines de ML automatizados y un conjunto de herramientas de ML de producción integrado y completo.
 * Facilita la toma de decisiones más rápida y confiable con visibilidad y auditabilidad de extremo a extremo de datos, procesos, modelos y paneles.
 
 ##### Equipos de IT
 
-* CML aumenta la productividad de DS con visibilidad, seguridad y gobernabilidad de todo el ciclo de vida de ML.
+* CML aumenta la productividad de Ciencia de Datos con visibilidad, seguridad y gobernabilidad de todo el ciclo de vida de ML.
 * CML elimina silos, puntos ciegos y la necesidad de mover/duplicar datos con una plataforma completamente integrada en todo el ciclo de vida de datos.
 * CML acelera la IA con acceso a Workspace de ML contenerizados que eliminan la carga pesada y llevan los modelos a producción más rápido.
 
 ##### Analistas y Otros Business Users
 
-* CML accede a Aplicaciones interactivas construidas e implementadas por equipos de DS.
+* CML accede a Aplicaciones interactivas construidas e implementadas por equipos de Ciencia de Datos.
 * Con CML se empodera con conocimientos predictivos para tomar decisiones comerciales de manera más inteligente.
 
 
