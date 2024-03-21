@@ -37,9 +37,11 @@ CML cubre el flujo de trabajo completo de aprendizaje automático, permitiendo c
 
 * Los modelos pueden ser implementados en cuestión de clics, eliminando cualquier obstáculo para la producción. Se sirven como puntos finales REST de manera altamente disponible, con construcción de linaje automatizada y seguimiento de métricas para propósitos de MLOps.
 
-* Los Job pueden ser utilizados para orquestar un pipeline automatizado completo de extremo a extremo, incluyendo monitoreo para el desvío del modelo y la activación automática de la reentrenamiento y re-implementación del modelo según sea necesario.
+* Los Job pueden ser utilizados para orquestar un pipeline automatizado completo de extremo a extremo, incluyendo monitoreo para el desvío del modelo y la activación automática de la re-entrenamiento y re-implementación del modelo según sea necesario.
 
 * Las aplicaciones ofrecen experiencias interactivas para usuarios comerciales en cuestión de clics. Marcos como Flask y Shiny pueden ser utilizados en el desarrollo de estas aplicaciones, mientras que Cloudera Data Visualization también está disponible como una interfaz de punto y clic para construir estas experiencias.
+
+![alt text](img/cmlarch.png)
 
 
 ### Cloudera Data Platform (CDP)
@@ -54,7 +56,7 @@ CDP es simple de usar y segura por diseño. Ofrece un ambiente común tanto para
 
 * Aligned Practices across Environments: Prácticas consistentes en la gestión de ambientes en la nube resultarán en costos operativos reducidos y prácticas de seguridad más sencillas.
 
-![alt text](img/cmlarch.png)
+![alt text](img/cmlplatform.png)
 
 
 ### Instrucciones Para los Ejercicios
