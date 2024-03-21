@@ -1,4 +1,4 @@
-# CML Intro HOL 20/03/24
+# CML Intro HOL 21/03/24
 
 Cloudera Machine Learning es la plataforma de aprendizaje automático nativa en Cloud de Cloudera, construida para CDP. Cloudera Machine Learning unifica la ciencia de datos y la ingeniería de datos de autoservicio en un único servicio portátil como parte de Cloud empresariales para análisis multifuncionales de datos en cualquier lugar.
 
@@ -12,14 +12,14 @@ CML es una plataforma integral para implementar capacidades de aprendizaje autom
 ##### Científicos de Datos
 
 * CML permite a los equipos de Ciencia de Datos colaborar y acelerar el desarrollo y entrega de modelos con flujos de trabajo transparentes, seguros y gobernados.
-* CML Amplía los casos de uso de IA con pipelines de ML automatizados y un conjunto de herramientas de ML de producción integrado y completo.
+* Amplía los casos de uso de IA con pipelines de ML automatizados y un conjunto de herramientas de ML de producción integrado y completo.
 * Facilita la toma de decisiones más rápida y confiable con visibilidad y auditabilidad de extremo a extremo de datos, procesos, modelos y paneles.
 
 ##### Equipos de IT
 
 * CML aumenta la productividad de Ciencia de Datos con visibilidad, seguridad y gobernabilidad de todo el ciclo de vida de ML.
-* CML elimina silos, puntos ciegos y la necesidad de mover/duplicar datos con una plataforma completamente integrada en todo el ciclo de vida de datos.
-* CML acelera la IA con acceso a Workspace de ML contenerizados que eliminan la carga pesada y llevan los modelos a producción más rápido.
+* Elimina silos, puntos ciegos y la necesidad de mover/duplicar datos con una plataforma completamente integrada en todo el ciclo de vida de datos.
+* Acelera la IA con acceso a Workspace de ML contenerizados que eliminan la carga pesada y llevan los modelos a producción más rápido.
 
 ##### Analistas y Otros Business Users
 
