@@ -139,14 +139,19 @@ Keep executing the cells in each notebook. Detailed instructions to continue on 
 
 ![alt text](img/labs12.png)
 
-![alt text](img/labs13.png)
+![alt text](img/labs14.png)
 
 * Notebook 3 provides an introduction to Apache Iceberg in CML. Iceberg is a Table Format enabling Lakehouse Analytics on your data. In the context of Machine Learning it is beneficial because it allows you to switch between different versions of your data by including a timestamp or Snapshot ID in your query.
-
-![alt text](img/labs14.png)
 
 ![alt text](img/labs15.png)
 
 ![alt text](img/labs16.png)
 
+![alt text](img/labs17.png)
+
+Detente después de ejecutar el Notebook 3 y continúa con la siguiente sección sobre Jobs de CML.
+
+
 ##### Despliegue de Job
+
+Los Trabajos de CML te permiten desplegar ejecuciones programadas de tu código sin la molestia de abrir una sesión. Son ideales para casos de uso que implican la ejecución repetida de código, como Ingeniería de Datos o Inferencia de Modelos. La página de Jobs proporciona características adicionales de visibilidad para monitorear la ejecución.
