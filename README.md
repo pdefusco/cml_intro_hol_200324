@@ -123,9 +123,9 @@ Tu Proyecto de CML es, en efecto, tu ambiente privado de Python para exploració
 
 ##### Ejecución de Notebook
 
-Keep executing the cells in each notebook. Detailed instructions to continue on are provided in each notebook.
+Continúe ejecutando las celdas en cada Notebook. Se proporcionan instrucciones detalladas para continuar en cada Notebook.
 
-* The rest of notebook 1 focuses on few simple commands, and the creation of a Project Environment variable.
+* El resto del Notebook 1 se centra en algunos comandos simples y la creación de una variable de ambiente del proyecto.
 
 ![alt text](img/labs08.png)
 
@@ -133,7 +133,7 @@ Keep executing the cells in each notebook. Detailed instructions to continue on 
 
 ![alt text](img/labs10.png)
 
-* Notebook 2 provides an introduction to Spark-on-Kubernetes and Data Connections in CML. With CML you can easily deploy CML Sessions with Spark to analyze data and create models at scale. Data Connections provide premade code for connecting to different types of data sources, including deploying a Spark Session within your Notebook.
+* El Notebook 2 proporciona una introducción a Spark-on-Kubernetes y las Data Connections en CML. Con CML, puedes implementar fácilmente Sesiones de CML con Spark para analizar datos y crear modelos a escala. Las "Data Connections" proporcionan código predefinido para conectar con diferentes tipos de fuentes de datos, incluida la implementación de una Sesión de Spark dentro de tu Notebook.
 
 ![alt text](img/labs11.png)
 
@@ -141,7 +141,7 @@ Keep executing the cells in each notebook. Detailed instructions to continue on 
 
 ![alt text](img/labs14.png)
 
-* Notebook 3 provides an introduction to Apache Iceberg in CML. Iceberg is a Table Format enabling Lakehouse Analytics on your data. In the context of Machine Learning it is beneficial because it allows you to switch between different versions of your data by including a timestamp or Snapshot ID in your query.
+* El Notebook 3 proporciona una introducción a Apache Iceberg en CML. Iceberg es un formato de tabla que permite análisis de tipo Lakehouse en tus datos. En el contexto del aprendizaje automático, es beneficioso porque te permite cambiar entre diferentes versiones de tus datos al incluir una marca de tiempo o Snapshot ID en tu consulta.
 
 ![alt text](img/labs15.png)
 
@@ -189,3 +189,5 @@ En esta primera sesión, comenzaste desde lo básico de CML. Creaste tu primer p
 * Los Jobs permiten a los usuarios de orquestar y programar ejecuciones independientes o dependientes. El uso típico es para Jobs de ETL de Spark y puntuación por lotes.
 
 * Spark es uno de los principales frameworks para ETL y Aprendizaje Automático a gran escala. CML proporciona la capacidad de Spark Runtime Add-On para usar Spark en una Sesión sin instalaciones avanzadas, y Spark Data Connections para desplegar una SparkSession con configuraciones recomendadas, como los archivos JAR y otras configuraciones de Iceberg.
+
+* Apache Iceberg es un formato de tabla abierto diseñado para el almacenamiento seguro y eficiente de grandes conjuntos de datos en plataformas de almacenamiento de datos distribuidos como Apache Hadoop y Apache Spark. Iceberg facilita la creación de un modelo de lago de datos (Lakehouse) al permitir la gestión de versiones y la captura de instantáneas de datos, lo que lo hace ideal para aplicaciones de análisis de datos a gran escala.
