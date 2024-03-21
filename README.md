@@ -54,8 +54,10 @@ CDP es simple de usar y segura por diseño. Ofrece un ambiente común tanto para
 
 * Aligned Practices across Environments: Prácticas consistentes en la gestión de ambientes en la nube resultarán en costos operativos reducidos y prácticas de seguridad más sencillas.
 
+![alt text](img/cmlarch.png)
 
-### Instrucciones de Ejercicios
+
+### Instrucciones Para los Ejercicios
 
 En esta sesión introductoria te familiarizarás con los Proyectos de CML, Runtimes, Sesiones y Jobs.
 
