@@ -19,7 +19,7 @@ CML es una plataforma integral para implementar capacidades de aprendizaje autom
 
 * CML aumenta la productividad de DS con visibilidad, seguridad y gobernabilidad de todo el ciclo de vida de ML.
 * CML elimina silos, puntos ciegos y la necesidad de mover/duplicar datos con una plataforma completamente integrada en todo el ciclo de vida de datos.
-* CML acelera la IA con acceso de autoservicio y espacios de trabajo de ML contenerizados que eliminan la carga pesada y llevan los modelos a producción más rápido.
+* CML acelera la IA con acceso a Workspace de ML contenerizados que eliminan la carga pesada y llevan los modelos a producción más rápido.
 
 ##### Analistas y Otros Business Users
 
@@ -31,7 +31,7 @@ CML es una plataforma integral para implementar capacidades de aprendizaje autom
 
 CML cubre el flujo de trabajo completo de aprendizaje automático, permitiendo cargas de trabajo completamente aisladas y contenerizadas, incluidos Python, R y Spark-on-Kubernetes, para ingeniería de datos a escala y aprendizaje automático con gestión distribuida de dependencias sin problemas.
 
-* Las sesiones permiten a los científicos de datos aprovechar directamente la capacidad de cálculo de CPU, memoria y GPU disponibles en el espacio de trabajo, al mismo tiempo que están directamente conectados a los datos en el lago de datos.
+* Las sesiones permiten a los científicos de datos aprovechar directamente la capacidad de cálculo de CPU, memoria y GPU disponibles en el Workspace, al mismo tiempo que están directamente conectados a los datos en el lago de datos.
 
 * Los experimentos permiten a los científicos de datos ejecutar múltiples variaciones de cargas de trabajo de entrenamiento de modelos, rastreando los resultados de cada experimento para entrenar el mejor modelo posible.
 
@@ -154,4 +154,38 @@ Detente después de ejecutar el Notebook 3 y continúa con la siguiente sección
 
 ##### Despliegue de Job
 
-Los Trabajos de CML te permiten desplegar ejecuciones programadas de tu código sin la molestia de abrir una sesión. Son ideales para casos de uso que implican la ejecución repetida de código, como Ingeniería de Datos o Inferencia de Modelos. La página de Jobs proporciona características adicionales de visibilidad para monitorear la ejecución.
+Los Jobs de CML te permiten desplegar ejecuciones programadas de tu código sin la molestia de abrir una sesión. Son ideales para casos de uso que implican la ejecución repetida de código, como Ingeniería de Datos o Inferencia de Modelos. La página de Jobs proporciona características adicionales de visibilidad para monitorear la ejecución.
+
+Navega a la página de Jobs y crea un Job con el script "04_datagen.py". Luego, ejecútalo.
+
+```
+Name: DataGen - nombre de usuario
+Script: 04_datagen.py
+Enable Spark: 3.2
+Schedule: Manual
+Resource Profile: 2 CPU / 8 GB Mem
+```
+
+![alt text](img/labs18.png)
+
+![alt text](img/labs19.png)
+
+![alt text](img/labs20.png)
+
+Este trabajo ha creado un conjunto de datos sintético con datos geoespaciales. Una vez que hayas ejecutado el Job, vuelve a abrir la Sesión de CML y ejecuta los Notebooks restantes. Utilizarás el nuevo conjunto de datos allí.
+
+### Resumen
+
+En esta primera sesión, comenzaste desde lo básico de CML. Creaste tu primer proyecto y sesión para explorar tus datos en un entorno aislado con tus propios paquetes de Python. Luego, creaste un trabajo para aislar un script más complejo en una ejecución separada y asignarle más recursos. En conclusion:
+
+* CML proporciona infraestructura fácilmente escalable para satisfacer todas tus necesidades, desde el desarrollo hasta la producción.
+
+* En el Workspace de CML hay tres roles: MLWorkspaceAdmin, MLWorkspaceBusinessUser, MLWorkspaceUser. Normalmente, a los científicos de datos se les asigna el rol de MLWorkspaceUser, a los administradores se les asigna el rol de MLWorkspaceAdmin y a los analistas se les asigna el rol de MLWorkspaceBusinessUser.
+
+* Cada usuario despliega su Proyecto para trabajar en un ambiente aislado que incluye Runtime, datos, y archivos privados. Sin embargo, cada usuario tiene la opción de compartir su trabajo con otros invitándolos a su proyecto, o directamente cambiando la configuración de proyecto a público.
+
+* Las Sesiones proporcionan un ambiente interactivo para la investigación y exploración de datos, y el desarrollo de modelos. Cuando el usuario abre una sesión, puede decidir qué runtime usar. La consecuencia de esta flexibilidad es que los usuarios pueden seleccionar el entorno de ejecución más adecuado para sus necesidades específicas, lo que les permite optimizar su productividad y rendimiento.
+
+* Los Jobs permiten a los usuarios de orquestar y programar ejecuciones independientes o dependientes. El uso típico es para Jobs de ETL de Spark y puntuación por lotes.
+
+* Spark es uno de los principales frameworks para ETL y Aprendizaje Automático a gran escala. CML proporciona la capacidad de Spark Runtime Add-On para usar Spark en una Sesión sin instalaciones avanzadas, y Spark Data Connections para desplegar una SparkSession con configuraciones recomendadas, como los archivos JAR y otras configuraciones de Iceberg.
