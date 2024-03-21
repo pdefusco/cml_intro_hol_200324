@@ -76,7 +76,7 @@ En esta sesión introductoria te familiarizarás con los Proyectos de CML, Runti
 
 Descargue los archivos del proyecto en su computadora local.
 
-1. Visite [este enlace](https://github.com/pdefusco/cml_intro_hol_200324)
+1. Visite [este enlace](https://github.com/pdefusco/cml_intro_hol_210324)
 2. Haz clic en "Código" y luego en "Descargar ZIP" para descargar todos los archivos.
 
 ![alt text](img/labs00.png)
